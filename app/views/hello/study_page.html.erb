@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIBERAL EARTH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link href="/assets/prototype.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <%= javascript_pack_tag 'jquery'%>
+</head>
+
+<body id="index">
+<header>
+    <div id="logo"><a href="index.html.erb">LIBERAL EARTH</a></div>
+    <div class="link">
+        <ul id="nav">
+            <li id="japanese">
+                <a href="1_japanese_top.html">国語</a>
+                <div id="japanese_menu">
+                    <ul>
+                        <li class="japanese_top"><a href="/hello/study_page">小学校国語</a></li>
+                        <li class="japanese_top"><a href="1_japanese_j_high.html">中学校国語</a></li>
+                        <li class="japanese_top"><a href="1_japanese_high.html">高校国語</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="math">
+                <a href="2_math_top.html">数学</a>
+                <div id="math_menu">
+                    <ul>
+                        <li class="math_top"><a href="2_math_elem.html">小学校算数</a></li>
+                        <li class="math_top"><a href="2_math_j_high.html">中学校数学</a></li>
+                        <li class="math_top"><a href="2_math_high.html">高校数学</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="social">
+                <a href="3_social_top.html">社会</a>
+                <div id="social_menu">
+                    <ul>
+                        <li class="social_top"><a href="3_social_elem.html">小学校社会</a></li>
+                        <li class="social_top"><a href="3_social_j_high.html">中学校社会</a></li>
+                        <li class="social_top"><a href="3_social_high.html">高校社会</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="science">
+                <a href="4_science_top.html">理科</a>
+                <div id="science_menu">
+                    <ul>
+                        <li class="science_top"><a href="4_science_elem.html">小学校理科</a></li>
+                        <li class="science_top"><a href="4_science_j_high.html">中学校理科</a></li>
+                        <li class="science_top"><a href="4_science_high.html">高校理科</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="english">
+                <a href="5_english_top.html">英語</a>
+                <div id="english_menu">
+                    <ul>
+                        <li class="english_top"><a href="5_english_elem.html">小学校英語</a></li>
+                        <li class="english_top"><a href="5_english_j_high.html">中学校英語</a></li>
+                        <li class="english_top"><a href="5_english_high.html">高校英語</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <p class="btn"><a href="#">ログイン</a></p>
+</header>
+
+<div class="back">
+    <div id="page_top"><a href="#"></a></div>
+    <div id="title">JAPANESE</div>
+
+    <div class="contents">
+        <ul id="subjects">
+            <li class="japanese_school">
+                <a href="/hello/study_page">小学校国語</a>
+            </li>
+            <li class="japanese_school">
+                <a href="1_japanese_j_high.html">中学校国語</a>
+            </li>
+            <li class="japanese_school">
+                <a href="1_japanese_high.html">高校国語</a>
+            </li>
+        </ul>
+
+
+        <%= javascript_pack_tag 'prototype'%>
+        <div id="question">
+            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
+            <input type="button" id="judge_button" value="解答">
+            <div id="result">だから</div>
+            <hr>
+
+            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
+            <form id="form1">
+                <input type="text" id="input_message" value="">
+                <input type="button" id="input_button" value="解答">
+            </form>
+            <div id="output_message"></div>
+            <hr>
+
+            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
+                <input type="button" id="1" value="そして">
+                <input type="button" id="2" value="だから">
+                <input type="button" id="3" value="しかし">
+            </form>
+            <div id="output_answer"></div>
+            <div id="great_button"></div>
+
+            <%= javascript_pack_tag 'page1'%>
+        </div>    
+    </div>
+</div>
+
+
+
+
+
+<footer>
+    <small>(C) 2022 LIBERAL EARTH (学習サイト)　All Rights Reserved.</small>
+</footer>
+
+</body>
+</html>

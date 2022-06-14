@@ -1,0 +1,22 @@
+
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *default
+  database: LiberalEarth_development
+
+test:
+  <<: *default
+  database: LiberalEarth_test
+
+production:
+  <<: *default
+  database: LiberalEarth_production
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
