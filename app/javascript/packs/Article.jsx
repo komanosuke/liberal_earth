@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import PropTypes from 'prop-types'
 
-class page1 extends React.Component {
 
-    render() {
-        return (
+const Article = () => {
+    return (
         <ul id="subjects">
             <li class="science_school">
             <a href="4_science_elem.html">小学校理科</a>
@@ -15,8 +16,7 @@ class page1 extends React.Component {
             <a href="4_science_high.html">高校理科</a>
             </li>
         </ul>
-        );
-    }
-}
+    );
+};
 
-export default page1;
+export default Article;

@@ -28,7 +28,6 @@ $(document).on("click", "#input_button", function () {
 	if(input_message == answer){
 		$("#output_message").html("正解です！");
 		judge1 = true;
-		console.log(judge2);
 		func3();
 		
 	} else {
