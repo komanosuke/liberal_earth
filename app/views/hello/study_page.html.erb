@@ -74,55 +74,22 @@
     <button type="button" class="js-btn">
         <span class="btn-line"></span>
     </button>
+    <div class="btn"><%=link_to 'ログイン', {action:'login_check'}  %></div>
 </header>
 
 <div class="back">
     <div id="page_top"><a href="#"></a></div>
-    <div id="title">JAPANESE</div>
-
-    <div class="contents">
-        <ul id="subjects">
-            <p>私は君たちに学問を薦める</p>
-        </ul>
-
-
-        <%= javascript_pack_tag 'prototype'%>
-        <div id="question">
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-            <input type="button" id="judge_button" value="解答">
-            <div id="result">だから</div>
-            <hr>
-
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-            <form id="form1">
-                <input type="text" id="input_message" value="">
-                <input type="button" id="input_button" value="解答">
-            </form>
-            <div id="output_message"></div>
-            <hr>
-
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-                <input type="button" id="1" value="そして">
-                <input type="button" id="2" value="だから">
-                <input type="button" id="3" value="しかし">
-            </form>
-            <div id="output_answer"></div>
-            <div id="great_button"></div>
-            
-            <%= javascript_pack_tag 'App' %>
-            <div id="manga_box">
-                <img src="/assets/manga.PNG">
-            </div>
-        </div>    
+    <div id="title">LIBERAL EARTH</div>
+    <div id="subjects"></div>
+    <%= javascript_pack_tag 'prototype'%>
+    <%= javascript_pack_tag 'App' %>
+    <div id="manga_box">
+        <img src="/assets/manga.PNG">
     </div>
 </div>
 
-
-
-
-
 <footer>
-    <small>(C) 2022 LIBERAL EARTH (学習サイト)　All Rights Reserved.</small>
+    <small>(C) 2022 LIBERAL EARTH (学習サイト) All Rights Reserved.</small>
 </footer>
 
 </body>

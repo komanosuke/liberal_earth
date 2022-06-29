@@ -3,23 +3,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import PropTypes from 'prop-types'
-import {useEffect} from 'react'
+import {useState} from 'react'
 
 const root = ReactDOM.createRoot(
-  document.getElementById('subjects')
+  document.getElementById('root')
 );
 
 
 const japanese_element = (
   <ul id="subjects">
     <li className="japanese_school">
-      <a id="japanese_elem1">小学校国語</a>
+      <a id="japanese_elem_sub">小学校国語</a>
     </li>
     <li className="japanese_school">
-      <a id="japanese_j_high">中学校国語</a>
+      <a id="japanese_j_high_sub">中学校国語</a>
     </li>
     <li className="japanese_school">
-      <a id="japanese_high">高校国語</a>
+      <a id="japanese_high_sub">高校国語</a>
     </li>
   </ul>
 );
@@ -91,17 +91,6 @@ var japanese_btn_high = document.getElementById("japanese_high");
 japanese_btn_high.addEventListener('click', function() {
   root.render(japanese_element_high);
 });
-
-
-
-const Message = () => {
-  useEffect(() => {
-    console.log('OK!')
-  });
-};
-
-Message();
-
 
 
 
@@ -461,4 +450,6 @@ var english_btn_high = document.getElementById("english_high");
 english_btn_high.addEventListener('click', function() {
   root.render(english_element_high);
 });
+
+
 
