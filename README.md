@@ -1,3 +1,0 @@
-# LiberalEarth
-# LiberalEarth
-# LiberalEarthTest
