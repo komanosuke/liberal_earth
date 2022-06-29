@@ -111,8 +111,9 @@ ul {
 }
 
 
-
-
+.js-btn {
+    visibility: hidden;
+}
 
 
 
@@ -142,11 +143,11 @@ ul {
 
 #manga_box {
     width: 100%;
+    text-align: center;
 }
 
 #manga_box img {
     width: 90%;
-    margin: 20px;
 }
 
 
@@ -405,13 +406,13 @@ iframe {
 }
 
 #english, .english_top, .english_school {
-    background-color: mediumpurple;
+    background-color: #948bdb;
     cursor: pointer;
     cursor: hand;
 }
 
 #english a:hover, .english_top a:hover, .english_school a:hover {
-    background-color: rgb(172, 150, 214);
+    background-color: #aea9d7;
 }
 
 
@@ -704,6 +705,7 @@ iframe {
         opacity: 0.6;
         border-radius: 22.5px;
         border-style: none;
+        visibility: visible;
       }
 
     .btn-line {
