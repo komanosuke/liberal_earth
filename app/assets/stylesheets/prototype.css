@@ -68,14 +68,14 @@ footer {
 
 
 
-#nav {
+.nav {
     list-style: none;
     display: flex;
     margin: 0;
 }
 
 
-#nav li {
+.nav li {
     text-align: center;
     margin-right: 4px;
     height: 50px;
@@ -85,13 +85,15 @@ footer {
 }
 
 
-#nav li a {
+.nav li a {
     display: block;
     text-decoration: none;
     color: white;
     font-weight: bold;
     width: 100%;
     height: 100%;
+    cursor: pointer;
+    cursor: hand;
 }
 
 
@@ -100,7 +102,7 @@ ul {
     padding: 0;
 }
 
-#nav li div {
+.nav li div {
     max-height: 0px;
     overflow: hidden;
     -webkit-transition:max-height 0.3s linear;
@@ -135,6 +137,16 @@ ul {
 .btn a:hover {
     background-color: white;
     color: black;
+}
+
+
+#manga_box {
+    width: 100%;
+}
+
+#manga_box img {
+    width: 90%;
+    margin: 20px;
 }
 
 
@@ -265,13 +277,15 @@ h1,h2, .picture_title {
     position: fixed;
     right: 4px;
     bottom: 4px;
-    background: black;
-    opacity: 0.8;
+    background: white;
+    opacity: 0.4;
+    border-radius: 25px;
 }
+
 
 #page_top:hover {
     background-color: gray;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #page_top a{
@@ -287,7 +301,7 @@ h1,h2, .picture_title {
     font-weight: 900;
     content: '\f102';
     font-size: 25px;
-    color: #fff;
+    color: black;
     position: absolute;
     width: 25px;
     height: 25px;
@@ -315,30 +329,17 @@ iframe {
     max-height: 150px;
 }
 
-#japanese {
+
+#japanese, .japanese_top, .japanese_school {
     background-color:firebrick;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.japanese_top {
-    background-color:firebrick;
-}
 
-.japanese_school {
-    background-color:firebrick;
-}
-
-#japanese a:hover {
+#japanese a:hover, .japanese_top a:hover, .japanese_school a:hover {
     background-color:rgb(216, 70, 70);
 }
-
-.japanese_top a:hover  {
-    background-color:rgb(216, 70, 70);
-}
-
-.japanese_school a:hover {
-    background-color:rgb(216, 70, 70);
-}
-
 
 
 
@@ -346,30 +347,17 @@ iframe {
     max-height: 150px;
 }
 
-#math {
+
+#math, .math_top, .math_school {
     background-color: teal;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.math_top {
-    background-color: teal;
-}
 
-.math_school {
-    background-color:teal;
-}
-
-#math a:hover {
+#math a:hover, .math_top a:hover, .math_school a:hover {
     background-color: rgb(30, 170, 170);
 }
-
-.math_top a:hover {
-    background-color: rgb(30, 170, 170);
-}
-
-.math_school a:hover {
-    background-color: rgb(30, 170, 170);
-}
-
 
 
 
@@ -377,27 +365,15 @@ iframe {
     max-height: 150px;
 }
 
-#social {
+
+#social, .social_top, .social_school {
     background-color:goldenrod;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.social_top {
-    background-color:goldenrod;
-}
 
-.social_school {
-    background-color:goldenrod;
-}
-
-#social a:hover {
-    background-color:rgb(255, 205, 80);
-}
-
-.social_top a:hover {
-    background-color:rgb(255, 205, 80);
-}
-
-.social_school a:hover {
+#social a:hover, .social_top a:hover, .social_school a:hover {
     background-color:rgb(255, 205, 80);
 }
 
@@ -408,30 +384,17 @@ iframe {
     max-height: 150px;
 }
 
-#science {
+
+#science, .science_top, .science_school {
     background-color: forestgreen;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.science_top {
-    background-color: forestgreen;
-}
 
-.science_school {
-    background-color:forestgreen;
-}
-
-#science a:hover {
+#science a:hover, .science_top a:hover, .science_school a:hover {
     background-color: rgb(70, 179, 70);
 }
-
-.science_top a:hover {
-    background-color: rgb(70, 179, 70);
-}
-
-.science_school a:hover {
-    background-color: rgb(70, 179, 70);
-}
-
 
 
 
@@ -441,28 +404,14 @@ iframe {
     max-height: 150px;
 }
 
-#english {
-    background-color: indianred;
+#english, .english_top, .english_school {
+    background-color: mediumpurple;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.english_top {
-    background-color: indianred;
-}
-
-.english_school {
-    background-color:indianred;
-}
-
-#english a:hover {
-    background-color: rgb(243, 146, 146);
-}
-
-.english_top a:hover{
-    background-color: rgb(243, 146, 146);
-}
-
-.english_school a:hover {
-    background-color: rgb(243, 146, 146);
+#english a:hover, .english_top a:hover, .english_school a:hover {
+    background-color: rgb(172, 150, 214);
 }
 
 
@@ -676,36 +625,63 @@ iframe {
     }
 
     header {
-        width: auto;
+        height: 20px;
     }
 
     #title {
         font-size: 10vw;
+        line-height: 40px;
+        margin: 0px auto 20px;
     }
 
     #logo {
         min-width: 160px;
-        height: 25px;
+        height: 20px;
     }
 
     #logo a {
         font-size: 6vw;
+        line-height: 100%;
     }
 
-    #nav {
-        float: none;
+    #page_top{
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+    }
+
+    #page_top a {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .nav {
+        position: fixed;
+        right: -70%;
+        width: 50%;
+        height: 100vh;
+        margin-left: auto;
         margin-top: 40px;
-        text-align: center;
+        /* メニューを縦に */
+        display: flex;
+        flex-direction: column;
+        color: #efefef;
+        transition: .3s;
+      }
+
+    .nav li {
+        width: 100%;
+        height: 8%;
+        justify-content: center;
+        align-items: center;
     }
 
-    #nav li {
-        text-align: center;
-        margin-right: 4px;
-        height: 25px;
-        width: 50px;
-        line-height: 25px;
-        padding: 0%;
+
+    .nav li div {
+        display: none;
     }
+
 
     .back {
         width: 90%;
@@ -713,4 +689,84 @@ iframe {
         margin: auto;
         padding: 90px 0 500px;
     }
+
+    .js-btn {
+        /* ボタンの配置位置  */
+        position: fixed;
+        top: 7.5px;
+        right: 7.5px;
+        /* ボタンの大きさ  */
+        width: 45px;
+        height: 45px;
+        /* 最前面に */
+        z-index: 10;
+        background-color: gray; /* わかりやすいように */
+        opacity: 0.6;
+        border-radius: 22.5px;
+        border-style: none;
+      }
+
+    .btn-line {
+        display: block;
+        position: relative;  /* バーガー線の位置基準として設定 */
+        width: 90%;  /* 線の長さと高さ */
+        height: 5px;
+        background-color: black;  /* バーガー線の色 */
+        border-radius: 2.5px;
+        transition: .2s;
+        margin: auto;
+    }
+
+        /****** 上下のバーガー線 *****/
+    .btn-line::before,
+    .btn-line::after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 2.5px;
+        transition: .5s;
+    }
+
+    .btn-line::before {
+    /* 上の線の位置 */
+        transform: translateY(-10px);
+    }
+
+    .btn-line::after {
+    /* 下の線の位置 */
+        transform: translateY(10px);
+    }
+
+    .nav.open {
+        right: 0;
+    }
+
+    .nav.close {
+        right: -70%;
+        transition: .3s;
+    }
+
+    /***** メニューオープン時 *****/
+    .btn-line.open {
+        background-color: transparent;  	/* 真ん中の線を透明に */
+    }
+
+    .btn-line.open::before ,
+    .btn-line.open::after {
+        content: "";
+        background-color: #333;  /* 上下の線の色を変える */
+        transition: .2s;
+    }
+
+    .btn-line.open::before {
+        transform: rotate(45deg);  /* 上の線を傾ける */
+    }
+
+    .btn-line.open::after {
+        transform: rotate(-45deg);  /* 下の線を傾ける */
+    }
+
 }
