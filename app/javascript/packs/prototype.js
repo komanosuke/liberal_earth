@@ -76,7 +76,7 @@ function func3() {
 
 
 $(function () {
-	$('.js-btn , .nav li a').on('click', function () {        // js-btnクラスをクリックすると、
+	$('.js-btn').on('click', function () {        // js-btnクラスをクリックすると、
 	  $('.nav , .btn-line').toggleClass('open'); // メニューとバーガーの線にopenクラスをつけ外しする
 	})
 });

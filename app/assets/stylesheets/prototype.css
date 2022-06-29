@@ -11,8 +11,6 @@
 
 
 
-
-
 html {
     overflow: auto;
 }
@@ -156,6 +154,7 @@ ul {
     background-color: rgb(0,0,0,0.8);
     margin: auto;
     padding: 90px 0 500px;
+    text-align: center;
 }
 
 
@@ -322,6 +321,11 @@ iframe {
 
 #question {
     text-align: center;
+}
+
+
+.notyet {
+    width: 90%;
 }
 
 
