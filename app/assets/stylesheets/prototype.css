@@ -428,7 +428,7 @@ iframe {
 
 /*教科 背景*/
 #index_japanese {
-    background-image: url(../images/japanese.jpg);
+    background-image: url(/assets/japanese.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -436,7 +436,7 @@ iframe {
 }
 
 #index_math {
-    background-image: url(../images/math.png);
+    background-image: url(/assets/math.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -444,7 +444,7 @@ iframe {
 }
 
 #index_social {
-    background-image: url(../images/social.jpg);
+    background-image: url(/assets/social.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -452,7 +452,7 @@ iframe {
 }
 
 #index_science {
-    background-image: url(../images/science.jpg);
+    background-image: url(/assets/science.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -460,7 +460,7 @@ iframe {
 }
 
 #index_english {
-    background-image: url(../images/english.jpg);
+    background-image: url(/assets/english.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -469,7 +469,7 @@ iframe {
 
 /*高校国語 背景*/
 #index_gendaibun {
-    background-image: url(../images/gendaibun.jpg);
+    background-image: url(/assets/gendaibun.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -477,7 +477,7 @@ iframe {
 }
 
 #index_kobun {
-    background-image: url(../images/kobun.jpg);
+    background-image: url(/assets/kobun.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -485,7 +485,7 @@ iframe {
 }
 
 #index_bunpo {
-    background-image: url(../images/bunpo.jpg);
+    background-image: url(/assets/bunpo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -496,7 +496,7 @@ iframe {
 
 /*高校社会 背景*/
 #index_w_history {
-    background-image: url(../images/w_history.jpg);
+    background-image: url(/assets/w_history.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -504,7 +504,7 @@ iframe {
 }
 
 #index_j_history {
-    background-image: url(../images/j_history.jpg);
+    background-image: url(/assets/j_history.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -512,7 +512,7 @@ iframe {
 }
 
 #index_geography {
-    background-image: url(../images/geography.jpg);
+    background-image: url(/assets/geography.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -520,7 +520,7 @@ iframe {
 }
 
 #index_ethics {
-    background-image: url(../images/ethics.jpg);
+    background-image: url(/assets/ethics.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -528,7 +528,7 @@ iframe {
 }
 
 #index_pol_eco {
-    background-image: url(../images/pol_eco.jpg);
+    background-image: url(/assets/pol_eco.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -537,7 +537,7 @@ iframe {
 
 /*高校理科 背景*/
 #index_physics {
-    background-image: url(../images/physics.jpg);
+    background-image: url(/assets/physics.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -545,7 +545,7 @@ iframe {
 }
 
 #index_chemistry {
-    background-image: url(../images/chemistry.jpg);
+    background-image: url(/assets/chemistry.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -553,7 +553,7 @@ iframe {
 }
 
 #index_biology {
-    background-image: url(../images/biology.jpg);
+    background-image: url(/assets/biology.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -561,7 +561,7 @@ iframe {
 }
 
 #index_geology {
-    background-image: url(../images/geology.jpg);
+    background-image: url(/assets/geology.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -573,7 +573,7 @@ iframe {
 
 /*高校英語 背景*/
 #index_listening {
-    background-image: url(../images/listening.jpeg);
+    background-image: url(/assets/listening.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -581,7 +581,7 @@ iframe {
 }
 
 #index_speaking {
-    background-image: url(../images/speaking.jpg);
+    background-image: url(/assets/speaking.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -589,7 +589,7 @@ iframe {
 }
 
 #index_reading {
-    background-image: url(../images/reading.jpg);
+    background-image: url(/assets/reading.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -597,7 +597,7 @@ iframe {
 }
 
 #index_writing {
-    background-image: url(../images/writing.jpg);
+    background-image: url(/assets/writing.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -605,7 +605,7 @@ iframe {
 }
 
 #index_grammar {
-    background-image: url(../images/grammar.jpg);
+    background-image: url(/assets/grammar.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

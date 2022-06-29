@@ -13,7 +13,7 @@
     <%= javascript_pack_tag 'jquery'%>
 </head>
 
-<body id="index">
+<body id="index_math">
 <header>
     <div id="logo"><a href="/">LIBERAL EARTH</a></div>
     <div class="link">
@@ -79,57 +79,17 @@
 
 <div class="back">
     <div id="page_top"><a href="#"></a></div>
-    <div id="title">LIBERAL EARTH</div>
-
-    <div class="contents">
-        <div id="root">
-        <div id="subjects">
-            <p>１、好きな分野から始めよう！</p>
-            <p>２、漫画を読んでだいたい理解できたら・・・</p>
-            <p>３、問題にチャレンジして、全問正解をめざそう！全問正解したら賞状カードをGET！</p>
-            <p>４、記録を保存したかったら、ログインしよう！図鑑が埋まっていく！SNSシェアもできる！</p>
-            <p>５、全クリしたら、スペシャルカードと動画が見られる！</p>
-        </div>
-        </div>
-        <hr>
-
-        <%= javascript_pack_tag 'prototype'%>
-        <div id="question">
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-            <input type="button" id="judge_button" value="解答">
-            <div id="result">だから</div>
-            <hr>
-
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-            <form id="form1">
-                <input type="text" id="input_message" value="">
-                <input type="button" id="input_button" value="解答">
-            </form>
-            <div id="output_message"></div>
-            <hr>
-
-            <div class="quiz">第１問　それが欲しかった。＿＿＿、ボクは盗んだ。</div>
-                <input type="button" id="1" value="そして">
-                <input type="button" id="2" value="だから">
-                <input type="button" id="3" value="しかし">
-            </form>
-            <div id="output_answer"></div>
-            <div id="great_button"></div>
-            
-            <%= javascript_pack_tag 'App' %>
-            <div id="manga_box">
-                <img src="/assets/manga.PNG">
-            </div>
-        </div>    
+    <div id="title">MATH</div>
+    <div id="root"></div>
+    <%= javascript_pack_tag 'prototype'%>
+    <%= javascript_pack_tag 'App' %>
+    <div id="manga_box">
+        <img src="/assets/manga.PNG">
     </div>
 </div>
 
-
-
-
-
 <footer>
-    <small>(C) 2022 LIBERAL EARTH (学習サイト)　All Rights Reserved.</small>
+    <small>(C) 2022 LIBERAL EARTH (学習サイト) All Rights Reserved.</small>
 </footer>
 
 </body>
