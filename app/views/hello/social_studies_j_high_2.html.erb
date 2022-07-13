@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIBERAL EARTH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link href="/assets/prototype.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <link href="/assets/favicon.ico" rel="shortcut icon">
+    <%= javascript_pack_tag 'jquery'%>
+</head>
+
+<body id="index_social">
+<header>
+    <div id="logo"><a href="/">LIBERAL EARTH</a></div>
+    <div class="link">
+        <ul class="nav">
+            <li id="japanese">
+                <a href="/hello/japanese">国語</a>
+                <div id="japanese_menu">
+                    <ul>
+                        <li class="japanese_top"><a href="/hello/japanese_elem">小学校国語</a></li>
+                        <li class="japanese_top"><a href="/hello/japanese_j_high">中学校国語</a></li>
+                        <li class="japanese_top"><a href="/hello/japanese_high">高校国語</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="math">
+                <a href="/hello/math">数学</a>
+                <div id="math_menu">
+                    <ul>
+                        <li class="math_top"><a href="/hello/math_elem">小学校算数</a></li>
+                        <li class="math_top"><a href="/hello/math_j_high">中学校数学</a></li>
+                        <li class="math_top"><a href="/hello/math_high">高校数学</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="social">
+                <a href="/hello/social_studies">社会</a>
+                <div id="social_menu">
+                    <ul>
+                        <li class="social_top"><a href="/hello/social_studies_elem">小学校社会</a></li>
+                        <li class="social_top"><a href="/hello/social_studies_j_high">中学校社会</a></li>
+                        <li class="social_top"><a href="/hello/social_studies_high">高校社会</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="science">
+                <a href="/hello/science">理科</a>
+                <div id="science_menu">
+                    <ul>
+                        <li class="science_top"><a href="/hello/science_elem">小学校理科</a></li>
+                        <li class="science_top"><a href="/hello/science_j_high">中学校理科</a></li>
+                        <li class="science_top"><a href="/hello/science_high">高校理科</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="english">
+                <a href="/hello/english">英語</a>
+                <div id="english_menu">
+                    <ul>
+                        <li class="english_top"><a href="/hello/english_elem">小学校英語</a></li>
+                        <li class="english_top"><a href="/hello/english_j_high">中学校英語</a></li>
+                        <li class="english_top"><a href="/hello/english_high">高校英語</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+</div>
+
+    <button type="button" class="js-btn">
+        <span class="btn-line"></span>
+    </button>
+    <div class="btn"><%=link_to 'ログイン', {action:'login_check'}  %></div>
+</header>
+
+<div class="back">
+    <div id="page_top"><a href="#"></a></div>
+    <div id="title">中学 歴史</div>
+    <h1>目次</h1>
+    <div id="table_box">
+    <ul class="table" id="social_table">
+        <li><a href="#wh01">１、大きな歴史の流れ</a></li>
+        <li><a href="#wh02">２、時代のわけ方</a></li>
+        <li><a href="#wh03">３、人類の出現と文明の発生</a></li>
+        <li><a href="#wh04">４、古代の日本と国家のおこり</a></li>
+        <li><a href="#wh05">５、律令国家への道</a></li>
+        <li><a href="#wh06">６、平安時代の政治と国風文化</a></li>
+        <li><a href="#wh07">７、武士のおこりと成長</a></li>
+        <li><a href="#wh08">８、鎌倉幕府の成立と執権政治</a></li>
+        <li><a href="#wh09">９、モンゴルの襲来と日本</a></li>
+        <li><a href="#wh10">１０、武士・民衆の動きと鎌倉時代の文化</a></li>
+        <li><a href="#wh11">１１、南北朝の動乱と室町幕府の成立</a></li>
+        <li><a href="#wh12">１２、日明貿易と東アジアの変動</a></li>
+        <li><a href="#wh13">１３、民衆の成長と戦国大名</a></li>
+        <li><a href="#wh14">１４、室町文化</a></li>
+        <li><a href="#wh15">１５、ヨーロッパ世界の発展</a></li>
+        <li><a href="#wh16">１６、天下統一の歩み</a></li>
+        <li><a href="#wh17">１７、桃山文化</a></li>
+        <li><a href="#wh18">１８、江戸幕府の成立</a></li>
+        <li><a href="#wh19">１９、鎖国の完成</a></li>
+        <li><a href="#wh20">２０、外国や近隣地域との関係</a></li>
+        <li><a href="#wh21">２１、産業の発達と都市の繁栄</a></li>
+        <li><a href="#wh22">２２、享保の改革と民衆の抵抗</a></li>
+        <li><a href="#wh23">２３、幕府や諸藩の改革</a></li>
+        <li><a href="#wh24">２４、新しい学問と化政文化</a></li>
+        <li><a href="#wh25">２５、外国船の接近と天保の改革</a></li>
+        <li><a href="#wh26">２６、近代革命の時代</a></li>
+        <li><a href="#wh27">２７、ヨーロッパ諸国のアジア侵略</a></li>
+        <li><a href="#wh28">２８、開国と江戸幕府の滅亡</a></li>
+        <li><a href="#wh29">２９、明治維新</a></li>
+        <li><a href="#wh30">３０、近代化政策と文明開化</a></li>
+        <li><a href="#wh31">３１、明治初期の外交</a></li>
+        <li><a href="#wh32">３２、自由民権運動</a></li>
+        <li><a href="#wh33">３３、大日本帝国憲法と帝国議会</a></li>
+    </ul>
+    </div>
+    <div id="root"></div>
+    <%= javascript_pack_tag 'prototype'%>
+    <div id="manga_box">
+        <img src="/assets/manga.PNG">
+    </div>
+</div>
+
+<footer>
+    <small>(C) 2022 LIBERAL EARTH (学習サイト) All Rights Reserved.</small>
+</footer>
+
+</body>
+</html>
