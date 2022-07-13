@@ -24,7 +24,6 @@ body {
 }
 
 
-
 header {
     background-color:black;
     padding: 20px;
@@ -203,20 +202,20 @@ h1,h2, .picture_title {
     width: 90%;
 }
 
-#tocbox {
+#table_box {
     margin: auto;
     width: 60%;
     list-style: none;
     padding-bottom: 110px;
 }
 
-.toc li {
+.table li {
     
     text-align: center;
     color: white;
 }
 
-.toc li a {
+.table li a {
     text-decoration: none;
     background-color: rgb(0,0,0,0.5);
     color: white;
@@ -227,8 +226,28 @@ h1,h2, .picture_title {
     display: block;
 }
 
-.toc li a:hover {
+#japanese_table li a:hover {
+    background-color:firebrick;
+    font-weight: bold;
+}
+
+#math_table li a:hover {
+    background-color:teal;
+    font-weight: bold;
+}
+
+#social_table li a:hover {
     background-color:goldenrod;
+    font-weight: bold;
+}
+
+#science_table li a:hover {
+    background-color:forestgreen;
+    font-weight: bold;
+}
+
+#english_table li a:hover {
+    background-color:#948bdb;
     font-weight: bold;
 }
 
@@ -694,6 +713,12 @@ iframe {
         margin: auto;
         padding: 90px 0 500px;
     }
+
+
+    #table_box {
+        width: 80%;
+    }
+
 
     .js-btn {
         /* ボタンの配置位置  */
